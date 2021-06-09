@@ -1,0 +1,11 @@
+//# Tokens-Operators-C-
+//Write a C++ Program to Find Size of int, float, double and char in Your System
+#include<iostream>
+#include<conio.h>
+main()
+{
+	std::cout<<"Size of char : "<<sizeof(char);
+	std::cout<<"\nSize of int : "<<sizeof(int);
+	std::cout<<"\nSize of float : "<<sizeof(float);
+	std::cout<<"\nSize of double : "<<sizeof(double);
+}
